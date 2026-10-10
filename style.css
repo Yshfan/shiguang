@@ -8,3 +8,5 @@ h1 { font-size:30px; margin:0 0 4px; } h2 { font-size:20px; margin:32px 0 8px; }
 .card { background:var(--card); border-radius:20px; padding:20px 22px; margin:16px 0; }
 a { color:var(--accent); } ul { padding-left:20px; } li { margin:6px 0; }
 footer { color:var(--muted); font-size:14px; margin-top:40px; }
+.lang { text-align:right; font-size:14px; color:var(--muted); margin-bottom:12px; }
+.lang a[aria-current] { color:var(--text); font-weight:600; text-decoration:none; }
